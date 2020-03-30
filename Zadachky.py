@@ -3,7 +3,7 @@
 b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 c = []
 for i in range(len(a)):
-    if a[i] == b[i]:
+    if a[i] in b:
         c.append(a[i])
 print(c)'''
 
